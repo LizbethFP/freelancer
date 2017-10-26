@@ -1,3 +1,24 @@
-/*
- * Estilos de tu proyecto
- */
+/*Clases reutilizables*/
+.main-font {
+font-family: 'Montserrat', sans-serif;
+color: #fff;
+text-transform: uppercase;
+font-weight: bold;
+}
+
+.secondary.font {
+font-family: 'Lato', sans-serif;
+color: #fff;
+font-size: 20px;
+}
+
+.line:nth-child(2n+1) {
+color: #fff;
+text-align: center;
+width: 30px;
+}
+
+/*Clases específicas*/
+body {
+
+}
