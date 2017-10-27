@@ -19,12 +19,9 @@ font-size: 20px;
 }
 
 .line:nth-child(2n+1) {
-color: #fff;
+color: #000;
 text-align: center;
 width: 30px;
 }
 
 /*Clases específicas*/
-body {
-
-}
