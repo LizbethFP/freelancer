@@ -121,8 +121,9 @@ nav .text-uppercase a:hover {
 
 .section-one figure {
   width: 275px;
-  margin-left: 815px;
-  margin-right: 815px;
+  margin-left: 720px;
+  margin-right: 830px;
+  /*vertical-align: middle;*/
 }
 
 .section-one figure img {
@@ -194,6 +195,7 @@ nav .text-uppercase a:hover {
   text-align: left;
 }
 
+/*falta alinear*/
 .section-three .p1{
   padding-left: 50px;
   padding-right: 50px;
@@ -236,8 +238,8 @@ nav .text-uppercase a:hover {
 }
 
 .section-four form {
-  padding-left: 800px;
-  padding-right: 800px;
+  padding-left: 450px;
+  padding-right: 450px;
 }
 
 form label, form input, form textarea {
@@ -251,6 +253,11 @@ form label, form input, form textarea {
 form input, form textarea {
   border-width: 0 0 1px 0;
   border-color: #868e96;
+  width: 780px;
+}
+
+.secondary-font.btn {
+  width: 65px;
 }
 
 .btn {
@@ -331,4 +338,9 @@ padding: 10px 12px 10px 12px;
 
 .small-container p a {
   color: #18bc9c;
+}
+
+.base {
+  font-size: 16px;
+  line-height: 24px;
 }
