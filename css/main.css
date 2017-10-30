@@ -185,25 +185,23 @@ nav .text-uppercase a:hover {
 }
 
 .section-three .text-box {
-  margin-left: 80px;
-  margin-right: 80px;
+  margin-left: 120px;
+  margin-right: 120px;
+  margin-bottom: 10px;
 }
 
 .section-three p {
   display: inline-block;
   font-size: 20px;
   text-align: left;
+  width: 390px;
+  padding: 25px;
+  vertical-align: top;
 }
 
-/*falta alinear*/
-.section-three .p1{
-  padding-left: 50px;
-  padding-right: 50px;
-}
-
-.section-three .p2{
-  padding-left: 50px;
-  padding-right: 50px;
+.secondary-font.p1 {
+  margin-top: 0;
+  padding-right: 20px;
 }
 
 .section-three button, .section-three a.secondary-font {
