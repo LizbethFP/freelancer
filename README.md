@@ -37,11 +37,13 @@ Este proyecto contiene:
 
 2. Una carpeta `css` que contiene un archivo `main.css` donde hay clases reutilizables y específicas para darle estilo a la página web.
 
-3. Una carpeta `assets` donde se encuentran la imagen de la maqueta a replicar y la carpeta `images` que contiene la carpeta `portfolio` con todas las imágenes que se incluyen en la página web. El formato de todas estas imágenes es ***png***.
+3. Una carpeta `assets` donde se encuentra la carpeta `images` que contiene la carpeta `portfolio` con todas las imágenes que se incluyen en la página web. El formato de todas estas imágenes es ***png***.
 
 4. Una carpeta `icons` que contiene a la carpeta `icomoon`, que a su vez contiene a la carpeta `fonts` con los íconos y una hoja de estilos llamada `style`.
 
-5. Un archivo  **`README.md`** que explica el contenido del repositorio.
+5. Una carpeta `docs` que contiene la imagen de la página web a replicar.
+
+6. Un archivo  **`README.md`** que explica el contenido del repositorio.
 
 ## Autora
 Lizbeth Félix Peña
