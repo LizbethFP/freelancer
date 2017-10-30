@@ -5,7 +5,7 @@
     <title>Freelancer</title>
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/icons/icomoon/style.css">
     <link rel="stylesheet" href="css/main.css">
   </head>
@@ -27,9 +27,9 @@
       <figure><img src="assets/images/profile.png" alt="profile"></figure>
       <span class="text-uppercase">start bootstrap</span>
       <div class="line">
-        <i class="icon-minus"></i>
+        <hr>
         <i class="icon-star-full"></i>
-        <i class="icon-minus"></i>
+        <hr>
       </div>
       <span class="secondary-font">Web Developer - Graphic Artist - User Experience Designer</span>
     </section>
@@ -38,9 +38,9 @@
     <section class="section-two">
       <h2 class="text-uppercase">portfolio</h2>
       <div class="line">
-        <i class="icon-minus"></i>
-        <i class="icon-star-full"></i>
-        <i class="icon-minus"></i>
+        <hr class="dark">
+        <i class="icon-star-full dark"></i>
+        <hr class="dark">
       </div>
       <div class="pictures-container">
         <figure>
@@ -68,12 +68,14 @@
     <section class="section-three">
       <h2 class="text-uppercase">about</h2>
       <div class="line">
-        <i class="icon-minus"></i>
+        <hr>
         <i class="icon-star-full"></i>
-        <i class="icon-minus"></i>
+        <hr>
       </div>
-      <p class="secondary-font">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
-      <p class="secondary-font">Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
+      <div class="text-box">
+        <p class="secondary-font p1">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
+        <p class="secondary-font p2">Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
+      </div>
       <button type="button"><i class="fa fa-download" aria-hidden="true"></i><a href="#" class="secondary-font">Download Theme</a></button>
     </section>
 
@@ -81,20 +83,20 @@
     <section class="section-four">
       <h2 class="text-uppercase">contact me</h2>
       <div class="line">
-        <i class="icon-minus"></i>
-        <i class="icon-star-full"></i>
-        <i class="icon-minus"></i>
+        <hr class="dark">
+        <i class="icon-star-full dark"></i>
+        <hr class="dark">
       </div>
       <form>
-        <label for="name">Name:</label>
-        <input type="text" name="name" value=""></input>
-        <label for="email">Email Address:</label>
-        <input type="text" name="email" value=""></input>
-        <label for="phone number">Phone Number:</label>
-        <input type="text" name="phone number" value=""></input>
-        <label for="message">Message:</label>
-        <textarea id="message"></textarea>
-        <input class="secondary-font" type="submit" name="send" value="Send">
+        <label for="name" class="secondary-font">Name</label>
+        <input type="text" name="name" value="" class="secondary-font"></input>
+        <label for="email" class="secondary-font">Email Address</label>
+        <input type="text" name="email" value="" class="secondary-font"></input>
+        <label for="phone number" class="secondary-font">Phone Number</label>
+        <input type="text" name="phone number" value="" class="secondary-font"></input>
+        <label for="message" class="secondary-font">Message</label>
+        <textarea id="message" class="secondary-font"></textarea>
+        <input class="secondary-font btn" type="submit" name="send" value="Send">
       </form>
     </section>
 
@@ -102,26 +104,26 @@
     <footer>
       <div class="small-container">
         <h3 class="text-uppercase">location</h3>
-        <span class="secondary-font">3481 Melrose Place</span>
-        <span class="secondary-font">Beverly Hills, CA 90210</span>
+        <p class="secondary-font p1">3481 Melrose Place</p>
+        <p class="secondary-font p2">Beverly Hills, CA 90210</p>
       </div>
       <div class="small-container">
         <h3 class="text-uppercase">around the web</b3>
 <!-- Stacked Icons -->
         <ul>
-          <li><a href=""><i class="fa fa-circle fa-facebook" aria-hidden="true"></i></a></li>
-          <li><a href=""><i class="fa fa-circle fa-google-plus" aria-hidden="true"></i></a></li>
-          <li><a href=""><i class="fa fa-circle fa fa-twitter" aria-hidden="true"></i></a></li>
-          <li><a href=""><i class="fa fa-circle fa fa-linkedin" aria-hidden="true"></i></a></li>
-          <li><a href=""><i class="fa fa-circle fa fa-dribbble" aria-hidden="true"></i></a></li>
+          <li><a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+          <li><a href=""><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+          <li><a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+          <li><a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+          <li><a href=""><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
         </ul>
       </div>
       <div class="small-container">
         <h3 class="text-uppercase">about freelancer</h3>
-        <p class="secondary-font">Freelance is a free to use, open source Bootstrap theme created by Start Bootstrap.</p>
+        <p class="secondary-font">Freelance is a free to use, open source Bootstrap theme created by <a href="#">Start Bootstrap</a>.</p>
       </div>
       <div class="base">
-        <spa class="secondary-font">Copyright © Your Website 2017</span>
+        <span class="secondary-font">Copyright © Your Website 2017</span>
       </div>
     </footer>
   </body>
