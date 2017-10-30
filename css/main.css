@@ -270,6 +270,7 @@ footer {
   display: inline-block;
   margin: 0px 30px 50px 30px;
   width: 300px;
+  vertical-align: top;
 }
 
 h3 {
