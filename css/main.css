@@ -12,9 +12,9 @@
 }
 
 body {
+  color: #fff;
   margin: 0 auto;
   text-align: center;
-  color: #fff;
   /*font-size: 16px;
   line-height: 1.71429;*/
 }
@@ -24,9 +24,9 @@ a {
 }
 
 .text-uppercase {
-  text-transform: uppercase;
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
+  text-transform: uppercase;
 }
 
 .secondary-font {
@@ -39,12 +39,12 @@ hr, .icon-star-full {
 }
 
 hr {
-  width: 105px;
-  height: 5px;
   background-color: #fff;
-  vertical-align: middle;
   border: none;
+  height: 5px;
   margin-bottom: 12px;
+  vertical-align: middle;
+  width: 105px;
 }
 
 .icon-star-full {
@@ -52,27 +52,27 @@ hr {
 }
 
 hr.dark {
-  width: 105px;
-  height: 5px;
   background-color: #2c3e50;
-  vertical-align: middle;
   border: none;
+  height: 5px;
   margin-bottom: 12px;
+  vertical-align: middle;
+  width: 105px;
 }
 
 .icon-star-full.dark {
-  height: 50px;
   color: #2c3e50;
+  height: 50px;
 }
 
 /*Clases específicas*/
 
 header {
   background-color: #2c3e50;
+  margin: 0;
   padding: 25px;
   position: fixed;
   width: 100%;
-  margin: 0;
 }
 
 header span {
@@ -88,7 +88,7 @@ header .text-uppercase a {
 
 header nav {
   display: inline-block;
-  position: relative; /*revisar*/
+  position: relative;
   right: 55px;
 }
 
@@ -97,8 +97,8 @@ nav ul {
 }
 
 nav ul li {
-  list-style: none;
   display: inline-block;
+  list-style: none;
   margin: 10px;
 }
 
@@ -114,21 +114,21 @@ nav .text-uppercase a:hover {
 /* Primera sección */
 .section-one {
   background-color: #18bc9c;
-  width: 100%;
-  padding-top: 200px;
   padding-bottom: 100px;
+  padding-top: 200px;
+  width: 100%;
 }
 
 .section-one figure {
-  width: 275px;
   margin-left: 720px;
   margin-right: 830px;
+  width: 275px;
   /*vertical-align: middle;*/
 }
 
 .section-one figure img {
-  width: 256px;
   height: 256px;
+  width: 256px;
 }
 
 .section-one .text-uppercase {
@@ -143,9 +143,9 @@ nav .text-uppercase a:hover {
 
 /* Segunda sección */
 .section-two {
-  width: 100%;
-  padding-top: 70px;
   padding-bottom: 100px;
+  padding-top: 70px;
+  width: 100%;
 }
 
 .section-two .text-uppercase {
@@ -156,9 +156,9 @@ nav .text-uppercase a:hover {
 }
 
 .section-two .pictures-container {
-  width: 70%;
   margin-left: 250px;
   margin-right: 200px;
+  width: 70%;
 }
 
 .section-two figure {
@@ -174,8 +174,8 @@ nav .text-uppercase a:hover {
 /* Tercera sección */
 .section-three {
   background-color: #18bc9c;
-  padding-top: 50px;
   padding-bottom: 70px;
+  padding-top: 50px;
 }
 
 .section-three .text-uppercase {
@@ -194,12 +194,11 @@ nav .text-uppercase a:hover {
   display: inline-block;
   font-size: 20px;
   text-align: left;
-  width: 390px;
   padding: 25px;
-  vertical-align: top;
+  width: 390px;
 }
 
-.secondary-font.p1 {
+.secondary-font.one, .secondary-font.two {
   margin-top: 0;
   padding-right: 20px;
 }
@@ -224,14 +223,14 @@ nav .text-uppercase a:hover {
 
 /* Cuarta sección */
 .section-four {
-  padding-top: 60px;
   padding-bottom: 70px;
+  padding-top: 60px;
 }
 
 .section-four .text-uppercase {
+  color: #212529;
   font-size: 48px;
   line-height: 58px;
-  color: #212529;
   margin-bottom: 5px;
 }
 
@@ -241,11 +240,11 @@ nav .text-uppercase a:hover {
 }
 
 form label, form input, form textarea {
-  display: block;
-  text-align: left;
   color: #868e96;
+  display: block;
   font-size: 24px;
   line-height: 36px;
+  text-align: left;
 }
 
 form input, form textarea {
@@ -259,10 +258,10 @@ form input, form textarea {
 }
 
 .btn {
-margin-top: 20px;
-border-radius: 5px;
-color: #fff;
-background-color: #18bc9c;
+  background-color: #18bc9c;
+  border-radius: 5px;
+  color: #fff;
+  margin-top: 20px;
 }
 
 /* Pie de página */
@@ -274,8 +273,8 @@ footer {
 .small-container {
   display: inline-block;
   margin: 0px 30px 50px 30px;
-  width: 300px;
   vertical-align: top;
+  width: 300px;
 }
 
 h3 {
@@ -293,8 +292,8 @@ h3 {
 }
 
 footer ul li {
-  list-style: none;
   display: inline-block;
+  list-style: none;
   /*width: 50px;
   height: 50px; del original*/
 }
@@ -310,9 +309,9 @@ ul li a {
 }
 
 .fa-facebook, .fa-google-plus, .fa-twitter, .fa-linkedin, .fa-dribbble {
-border: 2px solid #fff;
-border-radius: 40px;
-padding: 10px 12px 10px 12px;
+  border: 2px solid #fff;
+  border-radius: 40px;
+  padding: 10px 12px 10px 12px;
 }
 
 .fa-google-plus {
